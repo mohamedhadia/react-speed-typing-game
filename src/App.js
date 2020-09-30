@@ -26,7 +26,7 @@ function App() {
       setGameRunning(false);
       handleWordCount();
     }
-  }, [timer, gameRunning]);
+  }, [timer, gameRunning]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div>
